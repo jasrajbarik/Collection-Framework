@@ -48,17 +48,17 @@ Examples of commonly used implementation classes:
 
 Both arrays and collections are used to store multiple elements. However, they differ in their flexibility and functionality.
 
-| Feature | Array | Collection Framework |
-|---|---|---|
-| Size | Fixed size | Generally dynamic size |
-| Data storage | Can store primitives and objects | Stores objects (primitives through wrapper classes) |
-| Memory | Can be more memory-efficient for simple data storage | Depends on the implementation |
-| Insertion | Manual element assignment | Provides built-in methods such as add() |
-| Deletion | No direct deletion operation | Provides methods such as remove() |
-| Searching | Requires manual searching or utility methods | Provides methods such as contains() |
-| Built-in methods | Limited functionality | Provides many predefined methods |
-| Generics | Does not support generics | Supports generics |
-| Data structures | Array-based storage | Provides List, Set, Queue and Map implementations |
+| Feature          | Array                                                | Collection Framework                                |
+|------------------|------------------------------------------------------|-----------------------------------------------------|
+| Size             | Fixed size                                           | Generally dynamic size                              |
+| Data storage     | Can store primitives and objects                     | Stores objects (primitives through wrapper classes) |
+| Memory           | Can be more memory-efficient for simple data storage | Depends on the implementation                       |
+| Insertion        | Manual element assignment                            | Provides built-in methods such as add()             |
+| Deletion         | No direct deletion operation                         | Provides methods such as remove()                   |
+| Searching        | Requires manual searching or utility methods         | Provides methods such as contains()                 |
+| Built-in methods | Limited functionality                                | Provides many predefined methods                    |
+| Generics         | Does not support generics                            | Supports generics                                   |
+| Data structures  | Array-based storage                                  | Provides List, Set, Queue and Map implementations   |
 
 ### Example 1: Storing elements using an array
 

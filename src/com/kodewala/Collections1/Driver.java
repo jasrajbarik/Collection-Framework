@@ -2,6 +2,7 @@ package com.kodewala.Collections1;
 
 public class Driver {
     public static void main(String[] args) {
+
         //1. store the price --> container(box) which holds integer value
         int[] price = {200, 5000, 100, 200, 300, 700, 2300, 5600}; //Memory --> Heap
 
